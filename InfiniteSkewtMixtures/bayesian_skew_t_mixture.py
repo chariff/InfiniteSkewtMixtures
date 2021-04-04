@@ -10,9 +10,9 @@ from scipy.stats import (beta, gamma, multivariate_normal,
 from scipy.special import (loggamma, polygamma, ndtr, ndtri)
 from scipy.linalg import cholesky, eigvalsh
 
-from multivariate_skew_t import multivariate_skew_t as rv
-from multivariate_skew_t import PSD
-from gibbs_sampling_base import GibbsSamplingMixture
+from .multivariate_skew_t import multivariate_skew_t as rv
+from .multivariate_skew_t import PSD
+from .gibbs_sampling_base import GibbsSamplingMixture
 
 from collections import Counter
 
