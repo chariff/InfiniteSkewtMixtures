@@ -1,0 +1,24 @@
+[run]
+branch = True
+source = InfiniteSkewtMixtures
+
+[report]
+exclude_lines =
+    pragma: no cover
+    .*  # pragma: no cover
+    .*  # nocover
+    raise AssertionError
+    raise NotImplementedError
+    raise ValueError
+    if 0:
+    verbose = .*
+    raise
+    pass
+    except
+    continue
+    if __name__ == .__main__.:
+    print(.*)
+
+omit =
+    */setup.py
+    tests/*
