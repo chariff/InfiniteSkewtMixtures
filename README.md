@@ -4,6 +4,7 @@
 
 
 [![Build Status](https://travis-ci.org/chariff/BayesianInfiniteMixtures.svg?branch=master)](https://travis-ci.org/chariff/BayesianInfiniteMixtures)
+[![Codecov](https://codecov.io/github/chariff/BayesianInfiniteMixtures/badge.svg?branch=master&service=github)](https://codecov.io/github/chariff/BayesianInfiniteMixtures?branch=master)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 
