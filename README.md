@@ -3,6 +3,11 @@
 # Bayesian Infinite Skew-t Mixtures.
 
 
+[![Build Status](https://travis-ci.org/chariff/BayesianInfiniteMixtures.svg?branch=master)](https://travis-ci.org/chariff/BayesianInfiniteMixtures)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+
+
+
 
 Python implementation of a Bayesian nonparametric approach of skew-t distributions to perform model based clustering.   
 The Dirichlet process prior on the mixing distribution allows for an inference of the number of classes directly 
