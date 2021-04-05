@@ -1,4 +1,4 @@
-
+os: windows
 language: python
 sudo: false
 cache:
