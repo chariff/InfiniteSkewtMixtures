@@ -19,9 +19,9 @@ setup(
     long_description_content_type="text/markdown",
     include_package_data=True,
     install_requires=[
-        "numpy >= 1.18.5",
-        "scipy >= 1.4.1",
-        "sklearn >= 0.23.2"
+        "numpy >= 1.18.5+mkl",
+        "scipy >= 1.4.1+mkl",
+        "sklearn >= 0.24.1"
     ],
     license='MIT',
 )
