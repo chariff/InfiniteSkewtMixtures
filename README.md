@@ -3,7 +3,7 @@
 # Bayesian Infinite Skew-t Mixtures.
 
 
-[![Build Status](https://travis-ci.org/chariff/InfiniteSkewtMixtures.svg?branch=master)](https://travis-ci.org/chariff/BayesianInfiniteMixtures)
+[![Build Status](https://travis-ci.org/chariff/InfiniteSkewtMixtures.svg?branch=master)](https://travis-ci.org/chariff/InfiniteSkewtMixtures)
 [![Codecov](https://codecov.io/github/chariff/InfiniteSkewtMixtures/badge.svg?branch=master&service=github)](https://codecov.io/github/chariff/InfiniteSkewtMixtures?branch=master)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
