@@ -3,8 +3,8 @@
 # Bayesian Infinite Skew-t Mixtures.
 
 
-[![Build Status](https://travis-ci.org/chariff/BayesianInfiniteMixtures.svg?branch=master)](https://travis-ci.org/chariff/BayesianInfiniteMixtures)
-[![Codecov](https://codecov.io/github/chariff/BayesianInfiniteMixtures/badge.svg?branch=master&service=github)](https://codecov.io/github/chariff/BayesianInfiniteMixtures?branch=master)
+[![Build Status](https://travis-ci.org/chariff/InfiniteSkewtMixtures.svg?branch=master)](https://travis-ci.org/chariff/BayesianInfiniteMixtures)
+[![Codecov](https://codecov.io/github/chariff/InfiniteSkewtMixtures/badge.svg?branch=master&service=github)](https://codecov.io/github/chariff/InfiniteSkewtMixtures?branch=master)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 
@@ -28,7 +28,7 @@ Installation.
 GPro requires:
 * Python (>= 3.5)
 * NumPy+mkl (>= 1.18.5)
-* SciPy+mkl (>= 1.4.1)
+* SciPy (>= 1.4.1)
 * sklearn (>= 0.23.2)
 
 
