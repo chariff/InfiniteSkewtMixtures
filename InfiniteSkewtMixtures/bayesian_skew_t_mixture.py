@@ -448,6 +448,9 @@ class BayesianSkewtMixture(GibbsSamplingMixture):
         If a matrix to be inverted happens to be singular, the pseudo-inverse
         is computed instead.
 
+    cdf_approx : bool, optional
+            Whether to compute an approximation of the student cdf.
+
     random_state : boolean, default=None
         Optional, random seed used to initialize the pseudorandom number generator.
         If the random seed is None np.random.randint is used to generate a seed.
