@@ -41,6 +41,7 @@ def _check_X(X, n_components=None, n_features=None, ensure_min_samples=1):
     -------
     X : array of shape (n_observations, n_features)
     """
+
     X = check_array(X, dtype=[np.float64, np.float32],
                     ensure_min_samples=ensure_min_samples)
     if n_components is not None and X.shape[0] < n_components:
@@ -270,8 +271,6 @@ class GibbsSamplingMixture(metaclass=ABCMeta):
         -------
         self
         """
-
-        n_observations, _ = X.shape
         X = _check_X(X, None, ensure_min_samples=2)
         self._check_initial_parameters(X)
 
